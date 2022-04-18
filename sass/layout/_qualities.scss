@@ -3,30 +3,18 @@
     padding-top: 94px;
 }
 
-.qualities-picture {
-    display: flex;
-}
-
-.header-section-qualities {
-    display: none;
-}
-
-.qualities-head-list {
-    margin-bottom: 10px;
-}
-
 .qualities-list {
     display: flex;
 }
 
-.qualities-list-item {
+.qualities-list__item {
     width: 270px;
     &:not(:last-child) {
         margin-right: 30px;
     }
 }
 
-.qualities-image-box {
+.qualities-list__image-box {
     margin-bottom: 30px;
     display: flex;
     justify-content: center;
@@ -38,8 +26,8 @@
 }
 
 
-
-.qualities-head-list {
+.qualities-list__title {
+    margin-bottom: 10px;
     font-family: var(--primary-font-family);
     font-style: normal;
     font-weight: bold;
@@ -51,7 +39,7 @@
     color: var(--main-color);
 }
 
-.qualities-list-text {
+.qualities-list__text {
     font-family: var(--primary-font-family);
     font-style: normal;
     font-weight: normal;

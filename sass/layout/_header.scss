@@ -2,7 +2,7 @@
     border-bottom: 1px solid #ececec;
 }
 
-.contacts-item:not(:last-child) {
+.contacts__item:not(:last-child) {
     margin-right: 50px;
 }
 
@@ -61,17 +61,12 @@
 
 
 
-.envelope {
+.сontacts-item__sprite-1 {
     margin-right: 10px;
     fill: currentColor;
 }
 
-.vector {
+.сontacts-item__sprite-2 {
     margin-right: 10px;
     fill: currentColor;
-}
-
-.astronaut {
-    background: #f5f4fa;
-    border-radius: 4px;
 }

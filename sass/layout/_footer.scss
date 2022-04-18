@@ -9,7 +9,7 @@
     margin-top: 20px;
 }
 
-.address-list-location {
+.address-list-item__location {
     font-family: var(--primary-font-family);
     font-style: normal;
     font-weight: normal;
@@ -19,11 +19,11 @@
     color: var(--third-text-color);
 }
 
-.address-list-item:not(:last-child) {
+.address-list__item:not(:last-child) {
     margin-bottom: 10px;
 }
 
-.address-list-text {
+.address-list-item__text {
     font-family: var(--primary-font-family);
     font-style: normal;
     font-weight: normal;
@@ -53,13 +53,13 @@
     color: var(--third-text-color);
 }
 
-.address-block {
+.footer-section__address-block{
     margin-right: 70px;
 }
 
 
 
-.footer-social-list-link {
+.footer-list-item__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,10 +75,10 @@
     
 }
 
-.footer-social-list-icon {
+.footer-list-item__icon{
     fill: var(--third-text-color);
-    .footer-social-list-link:hover &,
-    .footer-social-list-link:focus & {
+    .footer-list-item__link:hover &,
+    .footer-list-item__link:focus & {
         fill: var(--third-text-color);
     }
 }
@@ -88,20 +88,20 @@
     align-items: baseline;
 }
 
-.footer-link-address {
+.footer-section__link-block {
     width: 206px;
     height: 80px;
 }
 
-.subscribe-form-wrapper {
+.footer-section__subscribe-form {
     margin-left: 93px;
 }
 
-.footer-form-item {
+.footer-form__item {
     display: flex;
 }
 
-.subscribe-form-input {
+.subscribe-form__input {
     margin-right: 12px;
     padding-left: 16px;
     padding-right: 16px;
@@ -112,7 +112,6 @@
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
-    /* box-sizing: border-box; */
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     &:focus {
@@ -122,7 +121,7 @@
 }
 
 
-.subscribe-form-button {
+.subscribe-form__button {
     margin: 0 auto;
     border: none;
     padding-top: 10px;
@@ -141,16 +140,16 @@
     letter-spacing: 0.06em;
     color: var(--third-text-color);
     background: var(--accent-color);
+    cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
     &:hover,
     &:focus {
         background-color: #188ce8;
     }
 }
 
-.subscribe-btn-icn {
+.subscribe-form-button__icn {
     margin-left: 10px;
 }
 

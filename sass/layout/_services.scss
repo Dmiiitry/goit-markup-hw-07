@@ -2,11 +2,11 @@
     padding-bottom: 94px;
 }
 
-.servicec-position {
+.servicec-list__position {
     position: relative;
 }
 
-.services-text {
+.services-list-position__text {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -48,6 +48,6 @@
     display: flex;
 }
 
-.services-list-item:not(:last-child) {
+.services-list__item:not(:last-child) {
     padding-right: 30px;
 }
